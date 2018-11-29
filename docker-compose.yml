@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  consul-server:
+    image: consul:latest
+    volumes:
+      - ./server:/etc/consul.d
+    command: consul agent --config-file /etc/consul.d/default.json
+  consul-agent:
+    image: consul:latest
+    volumes:
+      - ./agent:/etc/consul.d
+    command: consul agent -join consul-server --config-file /etc/consul.d/default.json
+    links:
+      - "consul-server"
