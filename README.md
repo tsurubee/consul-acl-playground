@@ -2,7 +2,7 @@
 Test environment for Consul ACL based on Docker
 
 # Usage
-## How to users Docker containers
+## How to use Docker containers
 Start up containers.  
 ```
 $ docker-compose up -d
