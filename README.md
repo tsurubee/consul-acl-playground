@@ -39,4 +39,5 @@ consul-agent-1   192.168.0.3:8301  alive   client  1.4.0  2         test-dc  <de
 ```
 
 # Blog
-- https://blog.tsurubee.tech/entry/2018/12/02/203015
+- [Consulを使う人が知っておくべきACLを使ったセキュリティ対策](https://blog.tsurubee.tech/entry/2018/12/02/203015)
+- [ConsulのACL Bootstrapをリセットしてもう一度やり直す方法](https://blog.tsurubee.tech/entry/2018/12/22/163318)
